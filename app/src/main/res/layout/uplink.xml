@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="GPS Upload"
+        android:id="@+id/button_gps"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="Video Upload"
+        android:id="@+id/button_video"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.08"
+        android:clickable="true" />
+    <TextView android:id="@+id/text"
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_weight="0.42" />
+</LinearLayout>
